@@ -34,7 +34,19 @@ public class pesquisaYoutubeTest {
         driver.get("https://www.youtube.com");
     }
 
-    @Test
+    /*
+    
+    Feature: Pesquisa no YouTube
+    
+    Scenario: Pesquisar um termo no YouTube
+    Given que o navegador está aberto no YouTube
+    When eu insiro "Vivendo aqui no mato" no campo de pesquisa
+    And eu clico no botão de pesquisa
+    Then os resultados da pesquisa para "Vivendo aqui no mato" são exibidos
+
+    */
+
+     @Test
     public void testPesquisaYoutube() {
 
         System.out.println("Aguardando o campo de pesquisa ser visivel");
@@ -57,7 +69,7 @@ public class pesquisaYoutubeTest {
 
         System.out.println("Verificando se o título do vídeo é igual ao esperado");
         Assert.assertEquals(tituloVideo, "Trio Parada Dura - Vivendo Aqui No Mato (Ao Vivo) ft. Zé Neto & Cristiano", "O título do vídeo é diferente do esperado.");
-        
+
     }
 
     @AfterTest
