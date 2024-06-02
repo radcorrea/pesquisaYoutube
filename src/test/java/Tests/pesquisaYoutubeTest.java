@@ -35,14 +35,13 @@ public class pesquisaYoutubeTest {
     }
 
     /*
-    
-    Feature: Pesquisa no YouTube
-    
-    Scenario: Pesquisar um termo no YouTube
-    Given que o navegador está aberto no YouTube
-    When eu insiro "Vivendo aqui no mato" no campo de pesquisa
-    And eu clico no botão de pesquisa
-    Then os resultados da pesquisa para "Vivendo aqui no mato" são exibidos
+    Funcionalidade: Pesquisa no YouTube
+
+    Cenário: Pesquisar um termo no YouTube
+    Dado que o navegador está aberto no YouTube
+    Quando eu insiro "Vivendo aqui no mato" no campo de pesquisa
+    E eu clico no botão de pesquisa
+    Então os resultados da pesquisa para "Vivendo aqui no mato" são exibidos
 
     */
 
